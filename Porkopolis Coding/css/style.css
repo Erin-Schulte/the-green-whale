@@ -1,0 +1,54 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/image-peony.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#container {
+	background: #414042;
+	width: 650px;
+	color: white;
+	padding: 15px;
+
+}
+
+h1 {
+	font-family: Lato;
+	font-size: 80px;
+	font-kerning: 2px;
+	text-align: center;
+	margin: 0;
+}
+
+h2 {
+	background-position: center;
+	font-family: Lato;
+	background: #6E9AD1;
+	color: #414042;
+	padding: 5px;
+	border-width: 400px;
+	border-radius: 20px;
+	text-align: center;
+	margin: 0;
+}
+
+a {
+	color: #6E9AD1;
+	text-decoration: none;
+}
+
